@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 
+
+
 // Configuração para receber dados no formato JSON
 app.use(express.json());
 
@@ -11,6 +13,6 @@ app.post('/receber-dados', (req, res) => {
     res.send('Dados recebidos com sucesso');
 });
 
-app.listen(8080, () => {
+app.listen( () => {
     console.log('Servidor HTTP escutando na porta 8080');
 });
