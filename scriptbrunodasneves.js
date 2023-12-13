@@ -11,6 +11,6 @@ app.post('/receber-dados', (req, res) => {
     res.send('Dados recebidos com sucesso');
 });
 
-app.listen(443, () => {
-    console.log('Servidor HTTP escutando na porta 443');
+app.listen(8080, () => {
+    console.log('Servidor HTTP escutando na porta 8080');
 });
