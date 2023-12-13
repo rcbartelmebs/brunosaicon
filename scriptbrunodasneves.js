@@ -1,5 +1,8 @@
-const express = require('express');
-const app = express();
+const express = require('express')
+const cors = require('cors')
+const app = express()
+
+app.use(cors())
 
 // Configuração para receber dados no formato JSON
 app.use(express.json());
